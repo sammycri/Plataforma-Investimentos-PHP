@@ -1,0 +1,170 @@
+div.conteudo
+{  
+  position: fixed;
+  left: 300px;
+  width: 100%;
+  height: 100%;  
+  padding-left: 100px;
+}
+.menu-navegacao 
+{
+    overflow: auto;
+    font-family: Arial;
+    font-size: 18px;
+    font-weight: 200;
+    background-color: #2e353d;
+    position: fixed;
+    display: block;
+    top: 0px;
+    width: 300px;
+    height: 100%;
+    color: #e1ffff;
+  }
+  .menu-navegacao .logo 
+  {
+    background-color: #22272e;
+    line-height: 50px;
+    display: block;
+    text-align: center;
+    font-size: 14px;
+  }  
+  .menu-navegacao ul,
+  .menu-navegacao li 
+  {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    line-height: 35px;
+    cursor: pointer;   
+  }  
+
+  .menu-navegacao li 
+  {
+    padding-left: 0px;
+    border-left: 3px solid #2e353d;
+    border-bottom: 1px solid #23282e;
+  }
+  .menu-navegacao li a 
+  {
+    text-decoration: none;
+    color: #e1ffff; 
+       
+  }
+
+  .menu-navegacao li a i 
+  {
+    padding-left: 10px;    
+    padding-right: 20px;
+    padding-top: 10px;
+    size: 100%;
+  }
+  .menu-navegacao li:hover 
+  {
+    border-left: 3px solid #d19b3d;
+    background-color: #4f5b69;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+  }
+  @media (max-width: 767px) 
+  {
+    .menu-navegacao 
+    {
+      position: relative;
+      width: 100%;
+      margin-bottom: 10px;
+    }
+    .menu-navegacao .toggle-btn 
+    {
+      display: block;
+      cursor: pointer;
+      position: absolute;
+      right: 10px;
+      top: 10px;
+      z-index: 10 !important;
+      padding: 3px;
+      background-color: #ffffff;
+      color: #000;
+      width: 40px;
+      text-align: center;
+    }
+    .logo 
+    {
+      text-align: left !important;
+      font-size: 22px;
+      padding-left: 20px;
+      line-height: 50px !important;
+    }
+  }
+  body 
+  {
+    margin: 0px;
+    padding: 0px;
+    background: url("https://wallup.net/wp-content/uploads/2017/11/23/502910-Firewatch-night-forest.jpg");
+    background: url("https://wallup.net/wp-content/uploads/2017/11/23/502910-Firewatch-night-forest.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    font-family: "Roboto", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;   
+  }
+/*pagina de login */
+  table 
+  {      
+    text-align: left;
+    font-size: 12pt;    
+    font-family: Arial;    
+  }
+  td
+  {
+    width: auto;
+  }
+  form
+  {
+    font-family: Arial;
+    height: 100%;
+  }
+  h1 
+  {
+    font-family: Arial;
+    font-size: 32pt;
+  }
+  div.sucesso
+  {
+      padding: 7px 15px;
+      margin-bottom: 15px;
+      border-radius: 15px;
+      background-color: rgba(226,239,218);
+      color: rgb(74, 116, 67);
+  }
+  div.aviso
+  {
+      padding: 7px 15px;
+      margin-bottom: 15px;
+      border-radius: 15px;
+      background-color: rgba(5, 5, 5, 0.2);
+      color: rgba(233, 164, 16, 0.986);
+  }
+  div.erro
+  {
+      padding: 7px 15px;
+      margin-bottom: 15px;
+      border-radius: 15px;
+      background-color: rgb(239, 218, 218);
+      color: rgb(250, 24, 24);
+  }
+  div#corpo-edit
+ {     
+            position: inherit;       
+            width: 1275px;                      
+            margin: auto;
+            padding: 20px;                  
+  }
+  
